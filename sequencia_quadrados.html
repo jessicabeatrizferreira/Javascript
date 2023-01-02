@@ -10,9 +10,13 @@
         pincel.fillStroke = "black";
         pincel.strokeRect(x,y,50,50);
     }
+    var x=0;
 
-    DesenhaQuadrado(0,0, "blue");
-    DesenhaQuadrado(0,50, "red");
-    DesenhaQuadrado(0,100, "yellow");
+    while(x<600){
+        DesenhaQuadrado(x,0,'green');
+        DesenhaQuadrado(x,50, "red");
+        x= x+50;
+    }
+   
 
 </script>
